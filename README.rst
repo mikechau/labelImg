@@ -137,7 +137,7 @@ If you want to package it into a separate EXE file
     Install pyinstaller and execute:
 
     pip install pyinstaller
-    pyinstaller --hidden-import=pyqt5 --hidden-import=lxml -F -n "labelImg" -c labelImg.py -p ./libs -p ./
+    pyinstaller --hidden-import=pyqt5 --hidden-import=lxml -F -n "labelImg" -c labelImg.py -p ./libs -p ./resources -p ./
 
 Windows + Anaconda
 ^^^^^^^^^^^^^^^^^^
